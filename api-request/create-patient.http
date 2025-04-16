@@ -1,0 +1,10 @@
+POST http://localhost:4000/patients
+Content-Type: application/json
+
+{
+  "name": "Jon Snow with billing account",
+  "email": "test_billing_account@example.com",
+  "address": "Castle Black, The Wall",
+  "dateOfBirth": "1995-01-01",
+  "registeredDate": "2024-01-01"
+}
