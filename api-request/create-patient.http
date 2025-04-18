@@ -2,9 +2,9 @@ POST http://localhost:4000/patients
 Content-Type: application/json
 
 {
-  "name": "Jon Snow with billing account",
-  "email": "test_billing_account@example.com",
-  "address": "Castle Black, The Wall",
+  "name": "Tywin Lannister",
+  "email": "tywin.lannister@iPayMyDebts2.com",
+  "address": "Casterly Rock, Westerlands",
   "dateOfBirth": "1995-01-01",
   "registeredDate": "2024-01-01"
 }
