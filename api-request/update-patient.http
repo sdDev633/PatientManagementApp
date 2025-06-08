@@ -1,11 +1,11 @@
-POST http://localhost:4004/api/patients
+PUT http://localhost:4004/api/patients/6b251c58-993b-4f94-9970-98c66abe3ae1
 Authorization: Bearer {{token}}
 Content-Type: application/json
 
 {
-  "name": "Hodor2",
+  "name": "Hodor",
   "email": "hodor@weHoldDoors2.com",
-  "address": "Casterly Rock, Westerlands",
+  "address": "North of the wall, holding the door",
   "dateOfBirth": "1995-01-01",
   "registeredDate": "2024-01-01"
 }
